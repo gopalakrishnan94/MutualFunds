@@ -73,7 +73,10 @@ const MF = () => {
                         dd.y = dd.nav;
                         ddSST.push(dd);
                     })
-                    ddSS.push({ name: 'test1', data: ddSST })
+                    ddSS.push({ 
+                        name: "NAV in Rs", 
+                        data: ddSST 
+                    })
                     setSpecificData(ddSS);
                     setSpecificMeta(res.data ? res.data.meta ? res.data.meta : {} : {})
                     setLoader(false);
@@ -133,7 +136,7 @@ const MF = () => {
             <Panel header="Searched Results" bordered shaded style={{ marginLeft: '5px' }}>
                 <Row>
                     <Col lg={9} md={9}>
-                        <List size="sm" bordered hover style={{ height: '350px' }}>
+                        <List size="sm" bordered hover style={{ height: '450px' }}>
                             {ResultData.map((ite1, iid1) => (
                                 <List.Item key={ite1.index} style={{ cursor: 'pointer' }} onClick={() => getSpecificData(ite1.schemeCode)}>
                                     {ite1.schemeName}
