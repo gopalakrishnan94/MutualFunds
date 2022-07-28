@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "//gopalakrishnan94.github.io/MutualFunds/static/css/main.9bc5959d.css",
+    "main.js": "//gopalakrishnan94.github.io/MutualFunds/static/js/main.8c26756a.js",
+    "static/js/787.25998033.chunk.js": "//gopalakrishnan94.github.io/MutualFunds/static/js/787.25998033.chunk.js",
+    "index.html": "//gopalakrishnan94.github.io/MutualFunds/index.html",
+    "main.9bc5959d.css.map": "//gopalakrishnan94.github.io/MutualFunds/static/css/main.9bc5959d.css.map",
+    "main.8c26756a.js.map": "//gopalakrishnan94.github.io/MutualFunds/static/js/main.8c26756a.js.map",
+    "787.25998033.chunk.js.map": "//gopalakrishnan94.github.io/MutualFunds/static/js/787.25998033.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bc5959d.css",
+    "static/js/main.8c26756a.js"
+  ]
+}
