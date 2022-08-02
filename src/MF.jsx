@@ -55,7 +55,7 @@ const MF = () => {
 
     const handleSearchSubmit = () => {
         if (search != null && search.length > 2) {
-            setResultData(TotalData.filter(x => x.schemeName.toLowerCase().includes(search)))
+            setResultData(TotalData.filter(x => x.schemeName.toLowerCase().includes(search.toLowerCase())))
         } else {
         }
     }
@@ -65,7 +65,7 @@ const MF = () => {
         try {
             await HTTP.get("/mf/" + ddSS)
                 .then((res) => {
-                    console.log(res)
+                    //console.log(res)
                     var ddSS = []
                     var ddSST = [];
                     res.data.data.forEach((dd) => {
